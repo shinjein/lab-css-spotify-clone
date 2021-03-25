@@ -1,8 +1,146 @@
-/*
-Colors:
+html,
+body {
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: 300;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-*/
+header img {
+    width: 150px;
+    margin: auto;
+}
+
+nav {
+    background-color:white;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    max-height: 300px;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+#nav-id {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    text-align: right;  
+
+}
+
+.nav-bar-ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-bar img {
+    width: 150px;
+}
+
+
+.white-bg{
+    text-align:center;
+}
+
+#header-bg{
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+}
+
+#header-bg h1 {
+    font-size: 3.5em;
+}
+
+#whats-on-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#whats-on-spotify>div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+.container {
+    padding: 35px;
+    width: 250px;
+}
+.container img {
+    width: 100px;
+}
+
+.container h3 {
+    color:rgb(1, 199, 60)
+}
+
+#green-section {
+    background-color:rgb(12, 170, 59);
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    height: 500px;
+    padding: 30px;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.green-imgs {
+    display:flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.green-imgs>img{
+    padding: 50px;
+}
+
+.green-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.green-text>article{
+    width: 350px;
+    padding: 10px;
+}
+
+#kanye {
+    height: 800px;
+}
